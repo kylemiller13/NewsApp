@@ -18,6 +18,8 @@
 		4B7E77B02A57CAF700C588D0 /* NewsAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7E77AF2A57CAF700C588D0 /* NewsAppUITestsLaunchTests.swift */; };
 		4B7E77BD2A57CDB000C588D0 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7E77BC2A57CDB000C588D0 /* APICaller.swift */; };
 		4B7E77BF2A57E35100C588D0 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7E77BE2A57E35100C588D0 /* NewsTableViewCell.swift */; };
+		4B7E77C22A588F3500C588D0 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7E77C12A588F3500C588D0 /* Secrets.swift */; };
+		4B7E77C42A58910F00C588D0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 4B7E77C32A58910F00C588D0 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		4B7E77BC2A57CDB000C588D0 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		4B7E77BE2A57E35100C588D0 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 		4B7E77C02A58829100C588D0 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		4B7E77C12A588F3500C588D0 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		4B7E77C32A58910F00C588D0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,8 @@
 				4B7E77BC2A57CDB000C588D0 /* APICaller.swift */,
 				4B7E77BE2A57E35100C588D0 /* NewsTableViewCell.swift */,
 				4B7E77C02A58829100C588D0 /* Readme.md */,
+				4B7E77C12A588F3500C588D0 /* Secrets.swift */,
+				4B7E77C32A58910F00C588D0 /* .gitignore */,
 			);
 			path = NewsApp;
 			sourceTree = "<group>";
@@ -239,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B7E77C42A58910F00C588D0 /* .gitignore in Resources */,
 				4B7E77992A57CAF700C588D0 /* LaunchScreen.storyboard in Resources */,
 				4B7E77962A57CAF700C588D0 /* Assets.xcassets in Resources */,
 				4B7E77942A57CAF600C588D0 /* Main.storyboard in Resources */,
@@ -267,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B7E77912A57CAF600C588D0 /* ViewController.swift in Sources */,
+				4B7E77C22A588F3500C588D0 /* Secrets.swift in Sources */,
 				4B7E778D2A57CAF600C588D0 /* AppDelegate.swift in Sources */,
 				4B7E77BF2A57E35100C588D0 /* NewsTableViewCell.swift in Sources */,
 				4B7E778F2A57CAF600C588D0 /* SceneDelegate.swift in Sources */,

@@ -7,11 +7,12 @@
 
 import Foundation
 
+
 final class APICaller {
     static let shared = APICaller()
     
     struct Constants {
-        static let topHeadlinesURL = URL(string:"https://newsapi.org/v2/top-headlines?country=US&apiKey=1ca65062294949b4a6e9eb04ac951e5b")
+        static let topHeadlinesURL = URL(string:"https://newsapi.org/v2/top-headlines?country=US&apiKey=\(API_KEY)")
     }
     private init(){}
     
