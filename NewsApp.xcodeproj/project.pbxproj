@@ -16,6 +16,8 @@
 		4B7E77A42A57CAF700C588D0 /* NewsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7E77A32A57CAF700C588D0 /* NewsAppTests.swift */; };
 		4B7E77AE2A57CAF700C588D0 /* NewsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7E77AD2A57CAF700C588D0 /* NewsAppUITests.swift */; };
 		4B7E77B02A57CAF700C588D0 /* NewsAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7E77AF2A57CAF700C588D0 /* NewsAppUITestsLaunchTests.swift */; };
+		4B7E77BD2A57CDB000C588D0 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7E77BC2A57CDB000C588D0 /* APICaller.swift */; };
+		4B7E77BF2A57E35100C588D0 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7E77BE2A57E35100C588D0 /* NewsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,9 @@
 		4B7E77A92A57CAF700C588D0 /* NewsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B7E77AD2A57CAF700C588D0 /* NewsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAppUITests.swift; sourceTree = "<group>"; };
 		4B7E77AF2A57CAF700C588D0 /* NewsAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4B7E77BC2A57CDB000C588D0 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		4B7E77BE2A57E35100C588D0 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		4B7E77C02A58829100C588D0 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +111,9 @@
 				4B7E77952A57CAF700C588D0 /* Assets.xcassets */,
 				4B7E77972A57CAF700C588D0 /* LaunchScreen.storyboard */,
 				4B7E779A2A57CAF700C588D0 /* Info.plist */,
+				4B7E77BC2A57CDB000C588D0 /* APICaller.swift */,
+				4B7E77BE2A57E35100C588D0 /* NewsTableViewCell.swift */,
+				4B7E77C02A58829100C588D0 /* Readme.md */,
 			);
 			path = NewsApp;
 			sourceTree = "<group>";
@@ -260,7 +268,9 @@
 			files = (
 				4B7E77912A57CAF600C588D0 /* ViewController.swift in Sources */,
 				4B7E778D2A57CAF600C588D0 /* AppDelegate.swift in Sources */,
+				4B7E77BF2A57E35100C588D0 /* NewsTableViewCell.swift in Sources */,
 				4B7E778F2A57CAF600C588D0 /* SceneDelegate.swift in Sources */,
+				4B7E77BD2A57CDB000C588D0 /* APICaller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
